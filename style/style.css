@@ -1,0 +1,189 @@
+#avatar {
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  margin: auto;
+  display: block;
+ }
+
+ body {
+  font-family: 'Roboto Flex', sans-serif, 'Space Mono', monospace;
+  background: #0a0a0a;
+ }
+
+ a {
+  text-decoration: none;
+ }
+
+ .container {
+  width: 678px;
+  margin: 0 auto;
+  background: #1c0d02;
+ }
+
+ .header {
+  background: #0D1117;
+  color: #f9f7fe;
+ }
+
+ .layout-header {
+  letter-spacing: 2.0px;
+ }
+
+ h2 {
+  text-align: center;
+  margin: auto;
+  color: #282828;
+  margin-top: 25px;
+ }
+
+ .layout-sub-header {
+  color: #f9f7fe;
+ }
+
+ h3{
+  text-align: center;
+  font-size: 18px;
+  color: #f9f7fe;
+  margin: 20px 25px;
+  letter-spacing: 1.5px;
+ }
+
+ div {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.05);
+  margin: 0 auto;
+  padding: 39px;
+ }
+
+ .card {
+  background: #0D1117;
+  color: #f9f7fe;
+ }
+
+ p {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 14px;
+  font-weight: 400;
+ }
+
+ .description {
+  font-size: 14px;
+  line-height: 20.9px;
+  margin-bottom: 39.5px;
+  border-style: dotted;
+  padding: 20px;
+ }
+
+ h1 {
+  line-height: 2.5px;
+  text-align: center;
+  padding: 17px 25px;
+ }
+
+ footer {
+  background: #0D1117;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-top: 25px;    /* Light shadow */
+ }
+
+ i {
+  color: rgb(79, 164, 217);
+  font-size: 23px;
+ }
+
+ .footer-icons > li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin-top: 30px;
+ }
+
+ .footer-icons {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+ }
+
+ .btn-blue {
+  border-radius: 4px;
+  color: #f9f7fe;
+  background: rgb(79, 164, 217);
+  line-height: 27px;
+  font-size: 18px;
+  padding: 12px 27px;
+  text-decoration: none;
+  margin-left: 243px;
+ }
+
+ .btn-blue:hover {
+  color:rgb(19, 54, 77);
+  transition: all 100ms ease-in-out;
+  background-color: rgb(43, 125, 177);
+ }
+
+ @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+ }
+
+ @media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+   width: 500px;
+  }
+ }
+
+ @media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  .btn-blue {
+    display: block;
+    width: 200px;
+    float: none;
+    margin-left: 0px;
+    padding: 12px;
+    text-align: center;
+   }
+
+  #avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    margin: auto;
+    display: block;
+  }
+
+  h1 {
+    line-height: 1.5px;
+    text-align: center;
+    padding: 17px 25px;
+    font-size: 24px;
+    margin-top: -37px;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 20.9px;
+    margin-bottom: 23.5px;
+    text-align: center;
+    border-style: dotted black;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .layout-header {
+    letter-spacing: -1px;
+   }
+ }
